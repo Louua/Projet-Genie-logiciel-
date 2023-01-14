@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/med.css">
+   
+    <script src="https://kit.fontawesome.com/9b8bc7ff45.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f88ca699a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="icon" href="/images-removebg-preview.png">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+     <script src="/js.js"></script>
+   
+    <title>Consultini.tn</title>
+</head>
+<body>
+    <header class="nav">
+       
+        <h2><a href="#main" class="logo"> <i class="fa-solid fa-heart-pulse"></i>Consultini.tn</a></h2>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#staff">Staff</a></li>
+            <li><a href="#Appointment">Appointment</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#store">Store</a>  <span class="store"> <i class="fa-solid fa-cart-plus"></i></span></li>
+            
+        </ul>
+    </header>
+       
+   <section class="mySlides dawr main" id="main"> 
+    <span class="dot"></span>
+    <div class="homeContent">
+      <h3 style="color: white;">    Providing best medical care</h3>
+      <h4><br><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.br <br>
+          Beatae recusandae iure sint, aliquam fugit nemo voluptates ipsam illo possimus. <br>
+           Nisi porro ad fuga earum quae! Fugiat vitae aperiam ipsa animi.</span></h4><br>
+      <h2>Everything I can imagine is real</h2><br>
+      <a href="#Appointment"><i class="main-btn">Appointment</i></a>
+      <div class="social-icons">
+          <a href="#"><i class="fab fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-brands fa-facebook"></i></a>
+
+      </div>
+  </div>
+   </section>
+   <section class="mySlides  dawr2 main"> 
+    <span class="dot"></span>
+    <div class="homeContent">
+      <h3 style="color:black ;">Providing best medical care</h3>
+      <h4><br><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.br <br>
+          Beatae recusandae iure sint, aliquam fugit nemo voluptates ipsam illo possimus. <br>
+           Nisi porro ad fuga earum quae! Fugiat vitae aperiam ipsa animi.</span></h4><br>
+      <h2 style="color:black ;">Everything I can imagine is real</h2><br>
+      <a href="#project"><i class="main-btn">Appointment</i></a>
+      <div class="social-icons">
+          <a href="#"><i class="fab fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-brands fa-facebook"></i></a>
+
+      </div>
+  </div>
+  </section>
+  <section class="mySlides  dawr3 main"> 
+    <span class="dot"></span>
+    <div class="homeContent">
+      <h3 style="color:#fff ;">Providing best medical care</h3>
+      <h4><br><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.br <br>
+          Beatae recusandae iure sint, aliquam fugit nemo voluptates ipsam illo possimus. <br>
+           Nisi porro ad fuga earum quae! Fugiat vitae aperiam ipsa animi.</span></h4><br>
+      <h2>Everything I can imagine is real</h2><br>
+      <a href="#project"><i class="main-btn">Appointment</i></a>
+      <div class="social-icons">
+          <a href="#"><i class="fab fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-brands fa-facebook"></i></a>
+
+      </div>
+  </div>
+  </section>
+   <section>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+        
+   </section>
+
+
+   <section id="staff">
+    <h2 class="titleStaff">Meet Our Doctors</h2>
+    <p class="pargh">Our administration and support staff all have exceptional people <br>
+        skills and trained to assist you with all medical enquiries.</p>
+        <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+            
+            <div class="swiper-slide card">
+                <div class="card-content">
+
+                    <div class="image">
+                        <img src="/tbib.jfif" alt="">
+                    </div>
+                    
+                    <div class="media-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <div class="name-profession">
+                        <span class="name">Richard Muldoone</span>
+                        <span class="profession">Cardiology Specialist</span>
+                    </div>
+
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>                        
+               
+                    </div>
+
+                    <div class="button">
+                        <button class="aboutMe">About Me</button>
+                        <button class="HireMe">Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide card">
+                <div class="card-content">
+
+                    <div class="image">
+                        <img src="/psy.jpg" alt="">
+                    </div>
+                    
+                    <div class="media-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <div class="name-profession">
+                        <span class="name">Maria Andaloro</span>
+                        <span class="profession">Pediatrician
+                        </span>
+                    </div>
+
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        
+                    </div>
+
+                    <div class="button">
+                        <button class="aboutMe">About Me</button>
+                        <button class="HireMe">Call</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide card">
+                <div class="card-content">
+
+                    <div class="image">
+                        <img src="/tbib3.jpg" alt="">
+                    </div>
+                    
+                    <div class="media-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <div class="name-profession">
+                        <span class="name">Michael Brian</span>
+                        <span class="profession">Dermatologists</span>
+                    </div>
+
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        
+                    </div>
+
+                    <div class="button">
+                        <button class="aboutMe">About Me</button>
+                        <button class="HireMe">Call</button>
+                    </div>
+
+                </div>
+            </div>
+            
+
+          
+
+        </div>
+    </div>
+  <div class="swiper-pagination"></div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+<section class="cardsS2" id="services">
+  <h2 class="titleServices">Providing Medical Care For The <br>
+    Sickest In Our Community.
+    </h2>
+  <div class="contentS2">
+
+
+      <div class="cardS2">
+          <div class="icon">
+            <span class="iconify" data-icon="medical-icon:i-neurology"><div class="fa-3x">
+                <i class="fa-solid fa-compact-disc fa-flip"></i>
+                <i class="fa-solid fa-camera-rotate fa-flip"></i>
+                <i class="fa-solid fa-cassette-tape fa-flip"></i>
+                <i class="fa-solid fa-scroll fa-flip" style="--fa-flip-x: 1; --fa-flip-y: 0;" ></i>
+                <i class="fa-solid fa-money-check-dollar fa-flip" style="--fa-animation-duration: 3s;" ></i>
+              </div>
+              </span>
+          </div>
+          <div class="info">
+            <h3>Neurology</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, libero. Blanditiis, beatae sed aperiam incidunt ex voluptatibus error nemo. Excepturi nam dolores cumque repudiandae nihil officiis voluptates, vero aperiam repellat.
+              <br><br> <span class="iconify" data-icon="bi:check-circle-fill" style="color: rgb(148, 255, 148);"></span> Neurotical care 
+              <br><br> <span class="iconify" data-icon="bi:check-circle-fill" style="color: rgb(148, 255, 148);"></span> Neuro Oncology 
+              <br><br> <span class="iconify" data-icon="bi:check-circle-fill" style="color: rgb(148, 255, 148);"></span> Geriatric Neurology
+            </p><br>
+            <a href="#" style="text-decoration: none; color: #02aaa2;">More details</a>
+          </div>
+      </div>
+
+
+      <div class="cardS2">
+          <div class="icon">
+            <span class="iconify" data-icon="healthicons:cardiology-outline"></span>
+          </div>
+          <div class="info">
+            <h3>Cardiology</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, libero. Blanditiis, beatae sed aperiam incidunt ex voluptatibus error nemo. Excepturi nam dolores cumque repudiandae nihil officiis voluptates, vero aperiam repellat.
+              <br><br> <span class="iconify" data-icon="bi:check-circle-fill" style="color: rgb(148, 255, 148);"></span> Cardiac Electrophysiology 
+              <br><br> <span class="iconify" data-icon="bi:check-circle-fill" style="color: rgb(148, 255, 148);"></span> Nuclear Cardiology
+              <br><br> <span class="iconify" data-icon="bi:check-circle-fill" style="color: rgb(148, 255, 148);"></span> Echocardiology
+            </p><br>
+            <a href="#" style="text-decoration: none; color: #02aaa2;">More details</a>
+          </div>
+      </div>
+
+
+      <div class="cardS2">
+          <div class="icon">
+            <span class="iconify" data-icon="medical-icon:i-pathology"></span>
+          </div>
+          <div class="info"> 
+            <h3>Pathology</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, libero. Blanditiis, beatae sed aperiam incidunt ex voluptatibus error nemo. Excepturi nam dolores cumque repudiandae nihil officiis voluptates, vero aperiam repellat.
+              <br><br> <span class="iconify" data-icon="bi:check-circle-fill" style="color: rgb(148, 255, 148);"></span> Surgical Pathology
+              <br><br> <span class="iconify" data-icon="bi:check-circle-fill" style="color: rgb(148, 255, 148);"></span> Histopathology
+              <br><br> <span class="iconify" data-icon="bi:check-circle-fill" style="color: rgb(148, 255, 148);"></span> Cytophathology
+            </p><br>
+            <a href="#" style="text-decoration: none; color: #02aaa2;">More details</a>
+          </div>
+      </div>            
+
+
+  </div>
+
+</section>
+
+
+<section class="rendezvous" id="Appointment">
+  <div class="form">
+    <h2 class="titleStaff">Appointment</h2>
+
+    <div class="input-container ic1">
+      <input id="firstname" class="input" type="text" placeholder=" " />
+      <div class="cut"></div>
+      <label for="firstname" class="placeholder">First name</label>
+    </div>
+
+    <div class="input-container ic2">
+      <input id="lastname" class="input" type="text" placeholder=" " />
+      <div class="cut"></div>
+      <label for="lastname" class="placeholder">Last name</label>
+    </div>
+
+    <div class="input-container ic2">
+      <input id="email" class="input" type="text" placeholder=" " />
+      <div class="cut cut-short"></div>
+      <label for="email" class="placeholder">Email</label>
+    </div>
+
+    <div class="input-container ic2">
+      <input id="phone" class="input" type="number" placeholder=" " />
+      <div class="cut cut-short"></div>
+      <label for="email" class="placeholder">Phone</label>
+    </div>
+
+    <div class="input-container ic2">
+      <select  id="specialite" class="input" type="text" placeholder="" >
+        <option value=""><div class="cut cut-short"></div>
+          <label for="email" class="placeholder" value="Generalist">Generalist</label></option>
+        <option value="dermatologist">Dermatologist</option>
+        <option value="Dentist">Dentist</option>
+        <option value="gastro">Gastro</option>
+        <option value="GP">GP</option>
+        <option value="gynecologist">Gynecologist</option>
+        <option value="physio">Physio</option>
+        <option value="Ophthalmologist">ophthalmologist</option>
+        <option value="Pediatrician">pediatrician</option>
+        <option value="Shrink">shrink</option>
+
+    </select>   
+    </div>
+
+    <button type="text" class="submit">submit</button>
+  </div>
+ </section>
+ <section class="Store" id="store">
+  <main>
+     
+  
+    <div class="container">
+     <header class="header">
+      <h2 class="titleServices">Medical Store</h2>
+        <!--<h3 class="header-logo">-->
+         
+       
+       
+       
+     </header>
+     
+     <div class="products">
+       
+    
+       
+     </div><!-- products -->
+     
+     <div class="shopping-cart">
+       <div class="shopping-cart-head">
+         <span class="product-quantity">0 </span> Product(s)
+       </div><br>
+       <ul class="shopping-cart-list">
+       </ul>
+       <div class="cart-buttons">
+         <a href="#0" class="button empty-cart-btn">Empty</a><br>
+         <a href="#0" class="button cart-checkout">Checkout - <span class="total-price">$0</span></a>
+       </div>
+     </div>
+   </div><!-- container -->   
+      <!-- END EDMO HTML (Happy Coding!)-->
+  </main>
+  
+       
+   <footer ><i class="fa-solid fa-hands-holding-heart"></i></footer>
+   
+       <!-- Script Js -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+       <script src="./js.js"></script>
+ </section>
+
+
+<section class="cardsSF" id="about">
+  <div class="contentSF">
+      <div class="cardF1">
+        <h2><a href="#" class="logoFF"> <i class="fa-solid fa-heart-pulse"></i></a></h2>
+          <div class="info">
+            <h4>Our goal is to deliver quality of care in a courteous, respectful and compassionate manner. We hope you will allow us to care for you and strive to be the first and best choice for your family healthcare.</h4>                        
+            <br><a href="#"><span class="iconify" data-icon="carbon:direction-straight-right"></span>&ensp; Make Appointment</a>
+          </div>
+      </div>
+
+
+      <div class="cardF1">
+          <div class="info find">
+            <h3>Find a doctor</h3>
+            <p>Find a dentist</p>
+            <p>Find a dermatologist</p>
+            <p>Find a gastro</p>
+            <p>Find a GP</p>
+            <p>Find a gynecologist</p>
+            <p>Find a physio</p>
+            <p>Find an ophthalmologist</p>
+            <p>Find a pediatrician</p>
+            <p>Find a shrink</p>
+
+          </div>
+      </div>
+
+
+      <div class="cardF2">
+          <div class="info"> 
+            <h3>Quick Contacts</h3>
+            <br><p>If you have ani questions or need help, feel free to contact us for medical assistance.</p>
+            <h3 class="phone"><span class="iconify" data-icon="carbon:phone-filled"></span>&ensp; +216 71 123 456</h3>
+            <p>23 Beverly Rd Brooklyn, New York 11226 United State.</p>
+            <br><a href="#"><span class="iconify" data-icon="carbon:direction-straight-right"></span>&ensp; Get direction&ensp;</a>
+              <a href="#"><i class="fab fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-brands fa-facebook"></i></a>
+          </div>
+      </div>            
+
+
+  </div>
+
+</section>
+  
+   
+    
+
+</body>
+</html>
